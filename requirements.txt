@@ -1,0 +1,8 @@
+transformers
+pandas
+streamlit
+datasets
+numpy
+plotly
+sklearn
+requests
