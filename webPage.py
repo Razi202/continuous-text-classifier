@@ -44,9 +44,9 @@ import numpy as np
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import requests
 from transformers import AutoTokenizer, T5ForConditionalGeneration, AutoModelForSeq2SeqLM
-import nltk
-from nltk import word_tokenize
-from nltk.util import ngrams
+# import nltk
+# from nltk import word_tokenize
+# from nltk.util import ngrams
 
 # In[7]:
 
