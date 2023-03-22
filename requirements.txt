@@ -4,5 +4,5 @@ streamlit
 datasets
 numpy
 plotly
-sklearn
+scikit-learn
 requests
