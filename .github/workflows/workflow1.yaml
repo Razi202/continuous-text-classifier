@@ -18,11 +18,6 @@ jobs:
         python-version: '3.9'
         architecture: 'x64'
         
-    - name: Install requirements
-      run: |
-        pip install -r requirements.txt
-        pip freeze > requirements.txt
-        
     - name: Install pylint
       run: |
         pip install pylint
