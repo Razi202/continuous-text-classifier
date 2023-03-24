@@ -34,11 +34,3 @@ jobs:
     - name: Linter test
       run: |
         pylint --disable=all $(git ls-files '*.py')
-    
-    - name: Run flask
-      run: |
-        python3 app.py
-        
-    - name: Run webpage
-      run: |
-        python3 -m streamlit run webPage.py
